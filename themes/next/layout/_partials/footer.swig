@@ -2,7 +2,7 @@
 #}{% set current = date(Date.now(), "YYYY") %}{#
 #}&copy; {% if theme.footer.since and theme.footer.since != current %}{{ theme.footer.since }} &mdash; {% endif %}{#
 #}<span itemprop="copyrightYear">{{ current }}</span>
-  <span class="author"> - {{ theme.footer.copyleft }}</span>
+  <span class="author"> &nbsp;|&nbsp; {{ theme.footer.copyleft }}</span>
   <span class="with-love">
     <i class="fa fa-{{ theme.footer.icon }}"></i>
   </span>
